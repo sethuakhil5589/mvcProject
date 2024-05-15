@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration</title>
+<style>
+	body { background-color: lightblue;
+            text-align: center;
+            color: black; 
+            }
+             a {
+            color: white; 
+            text-decoration: none; 
+            margin: 0 30px; 
+        }
+        .registertable{
+        margin: 0 auto
+        }
+</style>
+</head>
+<body style="align-content:center">
+<h2>Welcome to Student Application</h2>
+<h3>Registration Form.</h3>
+<form method="post" action="./register">
+<table class="registertable">
+<tr>
+<td>Id</td>
+<td><input type="number" name="studentId"></td>
+</tr>
+<tr>
+<td>Employee Name</td>
+<td><input type="text" name="studentName"></td>
+</tr>
+<tr>
+<td>Age</td>
+<td><input type="text" name="studentAge"></td>
+</tr>
+<tr>
+<td>City</td>
+<td><input type="text" name="studentCity"></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td>Confirm Password</td>
+<td><input type="password" name="cpassword"></td>
+</tr>
+<tr>
+<td><input type="submit" value="signup"></td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>
